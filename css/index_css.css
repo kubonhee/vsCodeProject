@@ -1,0 +1,23 @@
+@charset "utf-8";
+.allpage{width: 1076px;margin: 0 auto;}
+        
+        .login{
+            width: 80px; height: 30px; background-color: rgb(70, 81, 87); 
+            border-radius:8px;
+            float: right; 
+        }
+        .login a{text-decoration: none; color: #eee; }
+            
+        .main1{text-align: center;}  
+        ul li{display: inline; margin: 70px;}
+        ul li a{text-decoration:none; color: rgb(119, 112, 112); font-size: 20px; font-weight: bold; }
+
+        .bottomtext1{text-align: center;}
+        .bottomtext1 p{display: inline; margin: 12px;}
+        .bottomtext1 p a{text-decoration: none; color: #eee; font-weight: bold; font-size: 14px;}
+        .bottomtext1 p{text-decoration: none; color: #eee; font-weight: bold; font-size: 10px;}
+        .bottomtext1 {margin-left: auto; margin-right: auto;}
+        .bottomtext1 {height: 150px; background-color: rgb(43, 43, 53);
+        
+        /*width: 1018px; height: 100px; padding: 10px 30px ; */
+        }

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        .allpage{width: 350px;margin: 0 auto;text-align: center;  }
+        .newmember_logo {font-size: 50px; font-weight: 700;}
+
+        .chart input {width: 300px; height: 40px;  }
+        .chart li {list-style: none;}
+        .chart p {float:left; font-weight: 800; }
+
+        .next_cancel { width: 300px; margin: 0 auto;  }
+         
+        .next { width: 30; height: 15px; padding: 20px; margin: 10px ; 
+            border: 1px solid #000; text-align: center; border-radius: 10px;
+            background-color: #aaa ;     
+        }
+        .next a {text-decoration: none; color: #fff; display: list-item; list-style: none;}
+
+        .cancel {width: 30; height: 15px; padding: 20px; margin: 10px ; border-radius: 10px; 
+            border: 1px solid #000; text-align: center;
+            background-color: #aaa;  border: 1px solid #222;  
+        }
+        .cancel a {text-decoration: none; color: #fff; display: list-item; list-style: none;border: 1px solid #222;}
+        
+
+    </style>
+
+</head>
+<body>
+    <div class="allpage">
+    <div class="newmember_logo">
+        Gae Moim
+   </div>
+  
+
+
+  
+<ul class="chart">
+        <p>아이디</p>
+        <li><label><input type="id" name="id" placeholder="OOO@OOO.OOO" autofocus></label></li>
+
+        <p>비밀번호</p>
+        <li><label><input type="pw" name="pw" value=""></label></li>
+       
+        <p>비밀번호 확인</p>
+        <li><label><input type="pwch" name="pwch" value=""></label></li>
+
+        <p>이름</p>
+        <li><label><input type="name" name="name"></label></li>
+
+        <p>생년월일</p>
+        <li><label><input type="date" name="date"></label></li>
+
+        <p>연락처</p>
+        <li><label><input type="tel" name="tel" placeholder="010-"></label></li>
+        <div class="next_cancel">
+            <ul class="next">
+            <a href="newmember2.html"> 회원가입 </a>
+            </ul>
+
+            <ul class="cancel">
+            <a href="index.html"> 취소 </a>
+            </ul>
+        </div>
+</ul>
+
+</div>
+    
+</body>
+</html>
